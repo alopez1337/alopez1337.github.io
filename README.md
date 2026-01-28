@@ -5,6 +5,7 @@
     </head>
 <body>
     <p1> This is a portfolio of my work. <p1>
+        <br>
     <nav>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
