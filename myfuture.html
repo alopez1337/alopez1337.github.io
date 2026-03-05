@@ -1,21 +1,160 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="UTF-8">
-    <title>My Future Page</title>
-    <h1>My Future</h1>
-    </head>
-<body>
-        <br>
-    <nav>
-        <a href="index.html">Hompage</a>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Future Page</title>
+<meta name="description" content="My Future">
+
+<link rel="icon" href="assets/favicon.ico">
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- FontAwesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+
+<body class="bg-stone-950 text-white">
+
+<div class="flex flex-col min-h-screen">
+
+<!-- HEADER / NAV -->
+<header class="fixed top-0 left-0 w-full bg-gradient-to-br
+from-orange-500/80 to-gray-700/80
+backdrop-blur-md border-b border-white shadow-md z-50">
+
+<div class="max-w-7xl mx-auto flex items-center justify-between px-6 h-20">
+
+<!-- LOGO -->
+<div class="flex items-center gap-3">
+<img src="assets/logo.webp"
+class="w-12 h-12 rounded-full border bg-white p-1">
+
+<h1 class="text-2xl font-bold">Your Site</h1>
+</div>
+
+<!-- NAV LINKS -->
+<nav class="hidden md:flex gap-6">
+
+	<a href="index.html">Hompage</a>
         <a href="resume.html">Resume</a>
         <a href="activities.html">Activities/Interest</a>
         <a href="projects.html">Projects</a>
         <a href="myfuture1.html">My Future</a>
         <a href="contact.html">Contact</a>
-    </nav>
-    <br>
-    <p1>Plans after graduation.<p1>
+
+</nav>
+
+</div>
+
+</header>
+
+<!-- PAGE CONTENT -->
+<main class="flex-1 mt-24 max-w-7xl mx-auto px-6">
+
+<!-- HERO -->
+<section class="relative aspect-video rounded-xl overflow-hidden mb-10">
+
+<img src="assets/homepage.png"
+class="w-full h-full object-cover">
+
+<div class="absolute inset-0 bg-gradient-to-t
+from-black/70 to-transparent flex items-end p-8">
+
+<div>
+<h1 class="text-5xl font-bold mb-2">
+Welcome to Your Website
+</h1>
+
+<p class="text-lg text-gray-200">
+Explore projects, tutorials, and more.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTENT BLOCK -->
+<section class="bg-zinc-800 rounded-xl p-8 mb-8">
+
+<h2 class="text-3xl font-semibold mb-6">
+Projects
+</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<!-- CARD -->
+<a href="#"
+class="bg-neutral-300 rounded-lg overflow-hidden
+transform hover:scale-105 transition">
+
+<img src="assets/project1.jpg"
+class="w-full h-40 object-cover">
+
+<div class="p-4">
+
+<h3 class="text-lg font-bold text-black">
+Project Title
+</h3>
+
+</div>
+
+</a>
+
+<!-- CARD -->
+<a href="#"
+class="bg-orange-400 rounded-lg overflow-hidden
+transform hover:scale-105 transition">
+
+<img src="assets/project2.jpg"
+class="w-full h-40 object-cover">
+
+<div class="p-4">
+
+<h3 class="text-lg font-bold text-black">
+Featured Project
+</h3>
+
+</div>
+
+</a>
+
+<!-- CARD -->
+<a href="#"
+class="bg-blue-400 rounded-lg overflow-hidden
+transform hover:scale-105 transition">
+
+<img src="assets/project3.jpg"
+class="w-full h-40 object-cover">
+
+<div class="p-4">
+
+<h3 class="text-lg font-bold text-black">
+Latest Project
+</h3>
+
+</div>
+
+</a>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-black text-gray-400 text-center py-6">
+
+<p>© 2026 Your Website</p>
+
+</footer>
+
+</div>
+
 </body>
 </html>
